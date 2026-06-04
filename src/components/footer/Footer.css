@@ -5,6 +5,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 1em;
+    border-radius: 0 0 .75em .75em;
 }
 
 footer i {
