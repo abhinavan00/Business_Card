@@ -1,7 +1,76 @@
-
-
 .profile-img {
     width: 100%;
     height: 320px;
     object-fit: cover;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details {
+    margin: 1.3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3em;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bolder;
+    letter-spacing: .2em;
+    margin: 0;
+}
+
+.profession {
+    font-size: .75em;
+    color: #F3BF99;
+    margin: 0;
+}
+
+.portfolio {
+    font-size: .63em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.portfolio:hover {
+    text-decoration: underline;
+}
+
+/* BTN LINKS CONTAINER */
+
+.btn-links-container {
+    display: flex;
+    gap: 1.3em;
+}
+
+.email-btn, .linkedin-btn {
+    font-family: inherit;
+    font-size: .85em;
+    display: inline-block;
+    width: 125px;
+    padding: .65em 0;
+    border-radius: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    cursor: pointer;
+}
+
+.email-btn p, .linkedin-btn p {
+    margin: 0;
+}
+
+.email-btn {
+    color: #374151;
+    background: white;
+}
+
+.linkedin-btn {
+    background: #5093E2;
 }
