@@ -1,0 +1,17 @@
+main {
+    margin: 2em;
+    padding-bottom: 1.75em;
+}
+
+.about-sec h3, .interest-sec h3 {
+    font-size: 1em;
+    margin-bottom: .4em;
+}
+
+.about-sec p, .interest-sec p {
+    font-size: .75em;
+    margin-top: 0;
+    font-weight: 100;
+}
+
+
